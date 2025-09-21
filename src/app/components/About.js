@@ -107,7 +107,7 @@ const About = () => {
             go-to
             <span className="underline font-bold italic"> SQL</span> and
             <span className="underline font-bold italic"> No SQL Database</span>,
-            but I'm open to exploring others as well.
+but I&apos;m open to exploring others as well.
           </p>
           <p className="mt-4">
             I’m always keen on learning new

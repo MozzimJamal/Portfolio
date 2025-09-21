@@ -149,7 +149,8 @@ const Main = () => {
       >
         <p className="max-w-4xl text-sm sm:text-base md:text-lg leading-relaxed text-center sm:text-left">
           <span className="black-hover-target text-black hover:text-white transition-colors duration-300 bg-white hover:bg-black px-1">
-            Passionate about technology, I specialize in Web Development and Web Designing. I'm focused on building innovative solutions and continuously expanding my skills. My goal is to grow as a developer and contribute to impactful projects in the tech industry.
+          Passionate about technology, I specialize in Web Development and Web Designing. I&apos;m focused on building innovative solutions and continuously expanding my skills. My goal is to grow as a developer and contribute to impactful projects in the tech industry.
+
           </span>
         </p>
 

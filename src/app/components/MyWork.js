@@ -71,10 +71,12 @@ const MyWork = () => {
             className="w-full sm:w-[18rem] bg-white rounded-lg shadow-lg overflow-hidden border border-gray-200 hover:shadow-xl transition-shadow duration-300"
           >
             {/* Project Image */}
-          <img
+      <Image
   className="w-full h-48 sm:h-56 md:h-60 lg:h-64 object-cover"
-  src={`http://localhost:5000${item.image}`} // <-- add server URL
+  src={`http://localhost:5000${item.image}`}
   alt={item.title}
+  width={500}       // specify width
+  height={300}      // specify height
 />
 
 
