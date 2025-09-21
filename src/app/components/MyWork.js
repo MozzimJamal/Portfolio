@@ -11,7 +11,7 @@ const MyWork = () => {
   useEffect(() => {
     const fetchProjects = async () => {
       try {
-        const res = await fetch("http://localhost:5000/api/projects");
+        const res = await fetch("https://portfolio-backend-nx4a.onrender.com/api/projects");
         const data = await res.json();
         setProjects(data);
       } catch (error) {
@@ -73,7 +73,7 @@ const MyWork = () => {
             {/* Project Image */}
       <Image
   className="w-full h-48 sm:h-56 md:h-60 lg:h-64 object-cover"
-  src={`http://localhost:5000${item.image}`}
+  src={`https://portfolio-backend-nx4a.onrender.com${item.image}`}
   alt={item.title}
   width={500}       // specify width
   height={300}      // specify height
