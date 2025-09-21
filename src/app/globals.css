@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+/* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+} */
+
+/* @theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+} */
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+
+body{
+  background-color:white;
+}
+
+
+/* a tag  */
+
+a:after {
+  display:block;
+  content: '';
+  border-bottom: solid 3px black;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+a:hover:after { transform: scaleX(1); }
+
+
+
+/* app/globals.css me paste karo */
+*::selection {
+  background: transparent;
+  color: inherit;
+}
+
+
+
+
+
+
+/* globals.css */
+html,
+body {
+  height: 100%;
+}
+
+
+html {
+  scroll-behavior: auto;
+}
