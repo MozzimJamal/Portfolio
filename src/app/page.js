@@ -7,7 +7,7 @@ import Navbar from './components/Navbar'
 import dynamic from "next/dynamic";
 import useSmoothScroll from './Hooks/useSmoothScroll'
 
-const page = () => {
+const Page = () => {
 
      useSmoothScroll();
 
@@ -26,4 +26,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
